@@ -1,0 +1,12 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    background: linear-gradient(to bottom right, #02aabd, #00cdac);
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
